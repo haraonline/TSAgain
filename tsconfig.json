@@ -1,15 +1,27 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
-  "compilerOptions": {   
+  "compilerOptions": {
+    // Resolves imports using modern Node.js ESM/CommonJS rules and package.json exports/imports.
+    "moduleResolution": "nodenext",
+    // Emits modules according to Node.js ESM/CommonJS behavior; required with NodeNext resolution.
     "module": "nodenext",
+    // Emits the latest JavaScript syntax without downlevel transformations.
     "target": "esnext",
+    // Treats every source file as a module, even when it has no imports or exports.
     "moduleDetection": "force",
+    // Provides type definitions for ES2024 APIs, browser DOM APIs, and iterable DOM collections.
     "lib": ["ES2024","DOM","DOM.Iterable"],
+    // Enables TypeScript's full family of strict type-checking rules.
     "strict": true,
+    // Allows declared local variables that are never read.
     "noUnusedLocals": false,
+    // Allows function parameters that are never used.
     "noUnusedParameters": false,
+    // Requires class instance properties to be initialized in the declaration or constructor.
     "strictPropertyInitialization": true,
+    // Allows TypeScript to infer the any type when it cannot determine a more specific type.
     "noImplicitAny": false,
+    // Writes compiled JavaScript and related generated files into the dist directory.
     "outDir": "dist"
   }
 }
