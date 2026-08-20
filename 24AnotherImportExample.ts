@@ -1,6 +1,6 @@
 
-import type { Person } from './23AnotherExportExample'; // type-only import for Person
-import { Employee } from './23AnotherExportExample';
+
+import type { Employee, Person } from './23AnotherExportExample'; // type-only import for Person
 
 const john: Person = {
     name: 'John Doe',
