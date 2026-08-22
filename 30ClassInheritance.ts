@@ -51,3 +51,17 @@ const cat = new Cat("Whiskers", "Tabby");
 // Calling makeSound method on Dog and Cat instances
 dog.makeSound();
 cat.makeSound();
+
+
+
+// Example class with field initializer
+
+class Car {
+    make = "Toyota"; // field initializer
+    model: string = "Corolla"; // field initializer
+    year: number;
+
+    constructor(year: number) {
+        this.year = year;
+    }
+}
