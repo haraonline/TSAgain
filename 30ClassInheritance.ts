@@ -57,8 +57,8 @@ cat.makeSound();
 // Example class with field initializer
 
 class Car {
-    make = "Toyota"; // field initializer
-    model: string = "Corolla"; // field initializer
+    make = "Toyota"; // field or property initializer
+    model: string = "Corolla"; // field or property initializer
     year: number;
 
     constructor(year: number) {

@@ -1,3 +1,4 @@
+// TSCONFIG SETTING TO WATCH : "strictPropertyInitialization": true / false    
 // WITH A CONSTRUCTOR
 class Person {
     private name: string;
