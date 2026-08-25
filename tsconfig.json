@@ -22,6 +22,8 @@
     // Allows TypeScript to infer the any type when it cannot determine a more specific type.
     "noImplicitAny": false,
     // Writes compiled JavaScript and related generated files into the dist directory.
-    "outDir": "dist"
+    "outDir": "dist",
+    // when true, allows certain syntax to be erased during compilation
+    "erasableSyntaxOnly": true
   }
 }

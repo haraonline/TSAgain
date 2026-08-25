@@ -32,6 +32,9 @@ class Company {
     }
 }
 
+ // Accessing static method without creating an instance
+console.log(Company.getCompanyInfo());
+
 // Static blocks : runs once when the class is loaded into memory,
 //  and can be used to initialize static properties.
 class Firm {
